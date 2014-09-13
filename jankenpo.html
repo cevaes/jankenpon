@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Jan Ken Pon</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jkp.js"></script>
+</head>
+<body>
+	<h1>Jan Ken Pon!</h1>
+	<p>Elija 1 = Piedra; Elija 2 = Papel o Elija 3 = Tijera</p>
+	<p><input type = "button" value="Empezar!!" onclick="empezar()"></p>
+	<div id="maquina">
+		<a href="#" id="piedra" ><img src="img/1.jpg" onclick="" /></a>
+		<a href="#" id="papel"><img src="img/2.jpg" onclick="" /></a>
+		<a href="#" id="tijera"><img src="img/3.jpg" onclick=""/></a>
+	</div>
+
+	<div id="medio">
+		<div class="medio" id="playGame"></div>
+		<div class="medio" id="playUsuario"></div>
+		<div class="medio" id="resultado"></div>
+		
+	</div>
+	<div id="usuario">
+		<a href="#" id="piedra" ><img src="img/1.jpg" onclick="mostrar(0)" /></a>
+		<a href="#" id="papel"><img src="img/2.jpg" onclick="mostrar(1)" /></a>
+		<a href="#" id="tijera"><img src="img/3.jpg" onclick="mostrar(2)"/></a>
+	</div>	
+	<div id="abajo">
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+h1{
+	border: 1px solid;
+	color: red;
+}
+#usuario,  #maquina,  #medio{
+	border: 1px solid blue;
+	float: left;
+	height: 350px;
+	position: relative;
+	width: 360px;
+}
+.medio{
+	border: 1px solid red;
+	height: 70px;
+}
+
+#abajo{
+	border: 1px solid green;
+	float: bottom;
+}
