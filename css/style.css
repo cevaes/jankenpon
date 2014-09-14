@@ -6,7 +6,7 @@ h1{
 #usuario,  #maquina,  #medio{
 	border: 1px solid blue;
 	float: left;
-	height: 350px;
+	height: 230px;
 	position: relative;
 	width: 360px;
 }
@@ -17,5 +17,11 @@ h1{
 
 #abajo{
 	border: 1px solid green;
-	float: bottom;
+	position: absolute;
+	text-align: center;
+	top:385px;
+	width: 1080px;
+
+
+	
 }
